@@ -48,7 +48,7 @@ def add_s(array)
   array.each_with_index.collect do |word, index|
     if word != "feet"
       new_array << word + "s"
-    
+    end
   end
   new_array
 end
