@@ -45,12 +45,8 @@ end
 
 def add_s(array)
   new_array = []
-  if array[1]
-    false
-  elsif
-    array.collect do |word|
-      new_array << word + "s"
-    end
+  array.collect do |word|
+    new_array << word + "s"
   end
   new_array
 end
