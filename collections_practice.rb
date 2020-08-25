@@ -45,7 +45,7 @@ end
 
 def add_s(array)
   new_array = []
-  array.collect do |word|
+  array.each_with_index.collect do |word, index|
     new_array << word + "s"
   end
   new_array
